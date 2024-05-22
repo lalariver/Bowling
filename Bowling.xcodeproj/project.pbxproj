@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0C15772B4533A900BAC851 /* ExtensionCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C15762B4533A900BAC851 /* ExtensionCollection.swift */; };
 		CED5E4FA2B3AD55C00853CE5 /* BowlingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5E4F92B3AD55C00853CE5 /* BowlingApp.swift */; };
 		CED5E4FC2B3AD55C00853CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5E4FB2B3AD55C00853CE5 /* ContentView.swift */; };
 		CED5E4FE2B3AD56100853CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5E4FD2B3AD56100853CE5 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		CED5E50B2B3AD56200853CE5 /* BowlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5E50A2B3AD56200853CE5 /* BowlingTests.swift */; };
 		CED5E5152B3AD56200853CE5 /* BowlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5E5142B3AD56200853CE5 /* BowlingUITests.swift */; };
 		CED5E5172B3AD56200853CE5 /* BowlingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5E5162B3AD56200853CE5 /* BowlingUITestsLaunchTests.swift */; };
+		CED5E5242B3AD5A000853CE5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5E5232B3AD59F00853CE5 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0C15762B4533A900BAC851 /* ExtensionCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCollection.swift; sourceTree = "<group>"; };
 		CED5E4F62B3AD55C00853CE5 /* Bowling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5E4F92B3AD55C00853CE5 /* BowlingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingApp.swift; sourceTree = "<group>"; };
 		CED5E4FB2B3AD55C00853CE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		CED5E5102B3AD56200853CE5 /* BowlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5E5142B3AD56200853CE5 /* BowlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingUITests.swift; sourceTree = "<group>"; };
 		CED5E5162B3AD56200853CE5 /* BowlingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CED5E5232B3AD59F00853CE5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				CED5E4F92B3AD55C00853CE5 /* BowlingApp.swift */,
 				CED5E4FB2B3AD55C00853CE5 /* ContentView.swift */,
+				CED5E5232B3AD59F00853CE5 /* ViewModel.swift */,
+				CE0C15762B4533A900BAC851 /* ExtensionCollection.swift */,
 				CED5E4FD2B3AD56100853CE5 /* Assets.xcassets */,
 				CED5E4FF2B3AD56100853CE5 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED5E4FC2B3AD55C00853CE5 /* ContentView.swift in Sources */,
+				CE0C15772B4533A900BAC851 /* ExtensionCollection.swift in Sources */,
+				CED5E5242B3AD5A000853CE5 /* ViewModel.swift in Sources */,
 				CED5E4FA2B3AD55C00853CE5 /* BowlingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +430,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,8 +458,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
